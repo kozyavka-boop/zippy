@@ -3,11 +3,13 @@ html, body {
     padding: 0;
 }
 .container {
-    width: 700px;
+    width: 694px;
     margin: 0 auto;
+    padding-right: 8px;
+    padding-left: 8px;
 }
 .header {
-    background-color: black;
+    background-color: #263e5a;
 }
 .header-wrapper {
     display: flex;
@@ -20,6 +22,8 @@ html, body {
     padding: 0;
 }
 .nav_item {
+    // не очень понимаю, почему ты решила делать тут инлайн-блок, а не флекс
+    // но если ты знаешь, что делать, то хорошо, я посмотрю
     display: inline-block;
 }
 .nav_item a {
