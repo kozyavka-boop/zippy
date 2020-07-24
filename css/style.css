@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    background-color: #263e5a;
 }
 .container {
     width: 694px;
@@ -9,27 +10,40 @@ html, body {
     padding-left: 8px;
 }
 .header {
-    background-color: #263e5a;
+    
+    background: transparent;
 }
 .header-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 40px;
+}
+.logo {
+    font-size: 30px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 .nav_list {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
 }
 .nav_item {
-    // не очень понимаю, почему ты решила делать тут инлайн-блок, а не флекс
-    // но если ты знаешь, что делать, то хорошо, я посмотрю
-    display: inline-block;
+    margin-left: 35px;
+
 }
 .nav_item a {
-    text-transform: uppercase;
-    color: white;
     text-decoration: none;
+    font-size: 10px;
+    font-family: "Montserrat";
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 .nav_item a:hover {
     color:  rgb(255, 226, 109);
