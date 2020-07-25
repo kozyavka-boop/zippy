@@ -1,8 +1,21 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color: #263e5a;
+    background-color: #ffffff;
 }
+
+.visually-hidden {
+    position: absolute;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    white-space: nowrap;
+    clip: rect(0 0 0 0);
+}
+
 .container {
     width: 694px;
     margin: 0 auto;
@@ -10,8 +23,7 @@ html, body {
     padding-left: 8px;
 }
 .header {
-    
-    background: transparent;
+    background-color: #263e5a;
 }
 .header-wrapper {
     display: flex;
