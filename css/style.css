@@ -1,7 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color: #263e5a;
+    background-color: #ffffff;
 }
 .container {
     width: 694px;
@@ -10,9 +10,9 @@ html, body {
     padding-left: 8px;
 }
 .header {
-    
-    background: transparent;
+    background-color: #263e5a;
 }
+
 .header-wrapper {
     display: flex;
     justify-content: space-between;
